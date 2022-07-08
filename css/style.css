@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+header .inner {
+    width: 1180px;
+    height: 120px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header .home a:link, header .home a:visited {
+    color: black;
+    padding-top: 55px;
+    font: bold 15px "arial";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header .inner #gnb {
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+}
+
+header .inner #gnb li {
+    float: left;
+}
+
+header .inner #gnb li a {
+    display: block;
+    font: bold 17px "arial";
+    color: #555;
+    padding: 20px 40px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+header .inner #gnb li a:hover {
+    background: #555;
+    color: #fff;
+}
+
+/* visual */
+
+figure {
+    width: 100%;
+    height: calc(100vh - 400px);
+    background: rgb(16, 16, 36);
+    position: relative;
+    overflow: hidden;
+    padding-top: 120px;
+}
+
+figure .inner {
+    width: 1180px;
+    margin: 0px auto;
+    position: relative;
+}
+
+figure .inner h1 {
+    font: normal 100px/1 "arial";
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+/* objects */
+
+section {
+    width: 100%;
+    height: calc(100vh - 300px);
+    padding: 100px 0px;
+}
+
+section .inner {
+    width: 1180px;
+    margin: 0px auto;
+}
+
+section .intro h1 {
+    font: bold 30px/1 "arial";
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+
+section .intro h5 {
+    font: lighter 20px/1 "arial";
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: "Montserrat";
+    color: #818181;
+    line-height: 40px;
+}
+
+section .inner .wrap {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+section .inner .wrap article {
+    width: 280px;
+    float: left;
+    margin-right: 10px;
+}
+
+section .inner .wrap article h2 {
+    font: bold 20px/1.4 "arial";
+    margin-bottom: 20px;
+    font-family: "Montserrat";
+}
+
+section .inner .wrap article p {
+    width: 240px;
+    font: 14px/1.4 "arial";
+    color: #777;
+    text-align: justify;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 270px;
+    background: #333;
+    opacity: 0.8;
+    padding: 100px 0px;
+    border-top: 1px solid #888;
+}
+
+footer .inner {
+    width: 1180px;
+    margin: 0px auto;
+    margin-top: -25px;
+}
+
+footer .inner .upper {
+    width: 100%;
+    border-bottom: 1px solid #777;
+    padding-bottom: 20px;
+}
+
+footer .inner .upper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer .inner .upper h1 {
+    float: left;
+    font: bold 27px/1 "arial";
+    color: rgb(252, 252, 245);
+}
+
+footer .inner .upper ul {
+    float: right;
+}
+
+footer .inner .upper ul li {
+    float: left;
+    margin-left: 22px;
+    margin-top: 20px;
+    color: rgb(252, 252, 245);
+    font: bold 18px "arial";
+}
+
+footer .inner .lower {
+    width: 100%;
+    padding-top: 20px;
+}
+
+footer .inner .lower p {
+    width: 100%;
+    font: 14px/1 "arial";
+    color: rgb(252, 252, 245);
+    line-height: 20px;
+}
