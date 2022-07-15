@@ -14,21 +14,22 @@ ul, ol {
 
 header {
     width: 100%;
-    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
 }
 
 header .inner {
-    width: 1180px;
+    width: 100%;
     height: 120px;
     margin: 0px auto;
     position: relative;
+    padding-left: 250px;
 }
 
 header .home a:link, header .home a:visited {
     color: black;
     padding-top: 55px;
-    font: bold 15px "arial";
-    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -38,7 +39,7 @@ header .home a:link, header .home a:visited {
 header .inner #gnb {
     position: absolute;
     bottom: 0px;
-    right: -10px;
+    right: 150px;
 }
 
 header .inner #gnb li {
@@ -47,15 +48,17 @@ header .inner #gnb li {
 
 header .inner #gnb li a {
     display: block;
-    font: bold 17px "arial";
-    color: #555;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
     padding: 20px 40px;
     transition: all 0.5s;
     text-decoration: none;
 }
 
 header .inner #gnb li a:hover {
-    background: #555;
+    background: rgb(160, 158, 158);
     color: #fff;
 }
 
@@ -63,7 +66,7 @@ header .inner #gnb li a:hover {
 
 figure {
     width: 100%;
-    height: calc(100vh - 600px);
+    height: 500px;
     background: rgb(16, 16, 36);
     position: relative;
     overflow: hidden;
@@ -77,16 +80,18 @@ figure .inner {
 }
 
 figure .inner h1 {
-    font: normal 40px/1 "arial";
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
-    justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 figure .inner h6 {
-    font: normal 20px/1 "arial";
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
-    justify-content: center;
 }
 
 /* objects */
@@ -95,36 +100,40 @@ section {
     width: 100%;
     height: 300px;
     padding: 100px 0px;
-    margin-bottom: -60px;
 }
 
 section .inner {
-    width: 1180px;
+    width: 100%;
     margin: 0px auto;
     margin-top: -30px;
+    margin-bottom: -60px;
 }
 
 section .inner .wrap {
     width: 100%;
     margin-top: 20px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 section .inner .wrap article {
-    width: 550px;
+    width: 600px;
     float: left;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 section .inner .wrap article h2 {
-    font: bold 20px/1.4 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     margin-bottom: 20px;
-    font-family: "Montserrat";
 }
 
 section .inner .wrap article p {
-    width: 500px;
-    font: 14px/1.4 "arial";
+    width: 550px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
     color: #777;
     text-align: justify;
     line-height: 30px;
@@ -132,50 +141,132 @@ section .inner .wrap article p {
 
 .team {
     width: 100%;
-    height: 1500px;
+    height: 1450px;
     padding: 100px 0px;
 }
 
-.team h2 {
-    width: 1180px;
-    margin: 0px auto;
+.team .title h1 {
+    display: flex;
+    justify-content: center;
     margin-top: -30px;
-    margin-left: 180px;
     margin-bottom: 60px;
-    font: bold 20px/1.4 "arial";
-    font-family: "Montserrat";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-.team ul li {
-    width: 550px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 80px;
+.team .first {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.team ul li img {
+.team .first article {
+    width: 800px;
+    padding-left: 200px;
+}
+
+.team .first img {
     width: 200px;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 180px;
-    margin-bottom: 50px;
-    text-align: justify;
-    line-height: 30px;
+    margin-bottom: 30px;
 }
 
-.team ul li h2 {
-    font: 18px/1.4 "arial";
+.team .first h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     margin-bottom: 10px;
     color: black;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 30px;
 }
 
-.team ul li p {
+.team .first p {
     width: 500px;
-    margin-left: 180px;
-    font: 14px/1.4 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #777;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.team .second {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.team .second article {
+    width: 800px;
+    padding-left: 200px;
+}
+
+.team .second img {
+    width: 200px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.team .second h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    /* text-align: justify; */
+    line-height: 30px;
+}
+
+.team .second p {
+    width: 500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #777;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.team .third {
+    display: flex;
+    justify-content: center;
+}
+
+.team .third article {
+    width: 800px;
+    padding-left: 200px;
+}
+
+.team .third img {
+    width: 200px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.team .third h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    /* text-align: justify; */
+    line-height: 30px;
+}
+
+.team .third p {
+    width: 500px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
     color: #777;
     text-align: justify;
     line-height: 25px;
@@ -193,9 +284,11 @@ footer {
 }
 
 footer .inner {
-    width: 1180px;
+    width: 100%;
     margin: 0px auto;
     margin-top: -25px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 footer .inner .upper {
@@ -212,7 +305,9 @@ footer .inner .upper::after {
 
 footer .inner .upper h1 {
     float: left;
-    font: bold 27px/1 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 33px;
+    font-weight: lighter;
     color: rgb(252, 252, 245);
 }
 
@@ -225,7 +320,9 @@ footer .inner .upper ul li {
     margin-left: 22px;
     margin-top: 20px;
     color: rgb(252, 252, 245);
-    font: bold 18px "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 footer .inner .lower {
@@ -235,7 +332,9 @@ footer .inner .lower {
 
 footer .inner .lower p {
     width: 100%;
-    font: 14px/1 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
     color: rgb(252, 252, 245);
-    line-height: 20px;
+    line-height: 25px;
 }
