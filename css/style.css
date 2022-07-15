@@ -14,21 +14,22 @@ ul, ol {
 
 header {
     width: 100%;
-    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
 }
 
 header .inner {
-    width: 1180px;
+    width: 100%;
     height: 120px;
     margin: 0px auto;
     position: relative;
+    padding-left: 250px;
 }
 
 header .home a:link, header .home a:visited {
     color: black;
     padding-top: 55px;
-    font: bold 15px "arial";
-    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -38,7 +39,7 @@ header .home a:link, header .home a:visited {
 header .inner #gnb {
     position: absolute;
     bottom: 0px;
-    right: -10px;
+    right: 150px;
 }
 
 header .inner #gnb li {
@@ -47,15 +48,17 @@ header .inner #gnb li {
 
 header .inner #gnb li a {
     display: block;
-    font: bold 17px "arial";
-    color: #555;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
     padding: 20px 40px;
     transition: all 0.5s;
     text-decoration: none;
 }
 
 header .inner #gnb li a:hover {
-    background: #555;
+    background: rgb(160, 158, 158);
     color: #fff;
 }
 
@@ -63,11 +66,11 @@ header .inner #gnb li a:hover {
 
 figure {
     width: 100%;
-    height: calc(100vh - 400px);
+    height: 500px;
     background: rgb(16, 16, 36);
     position: relative;
     overflow: hidden;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 figure .inner {
@@ -77,7 +80,9 @@ figure .inner {
 }
 
 figure .inner h1 {
-    font: normal 100px/1 "arial";
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
     text-align: center;
     justify-content: center;
@@ -87,7 +92,7 @@ figure .inner h1 {
 
 section {
     width: 100%;
-    height: calc(100vh - 300px);
+    height: 700px;
     padding: 100px 0px;
 }
 
@@ -97,44 +102,55 @@ section .inner {
 }
 
 section .intro h1 {
-    font: bold 30px/1 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
     margin-top: -20px;
 }
 
 section .intro h5 {
-    font: lighter 20px/1 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
     text-align: center;
     margin-bottom: 100px;
-    font-family: "Montserrat";
     color: #818181;
-    line-height: 40px;
+    line-height: 50px;
+}
+
+section .inner {
+    width: 100%;
 }
 
 section .inner .wrap {
     width: 100%;
     margin-top: 20px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 section .inner .wrap article {
-    width: 280px;
+    width: 400px;
     float: left;
-    margin-right: 10px;
 }
 
 section .inner .wrap article h2 {
-    font: bold 20px/1.4 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
     margin-bottom: 20px;
-    font-family: "Montserrat";
+    text-align: center;
 }
 
 section .inner .wrap article p {
-    width: 240px;
-    font: 14px/1.4 "arial";
-    color: #777;
-    text-align: justify;
+    width: 480px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 70px;
+    color: #818181;
 }
 
 /* footer */
@@ -149,9 +165,11 @@ footer {
 }
 
 footer .inner {
-    width: 1180px;
+    width: 100%;
     margin: 0px auto;
     margin-top: -25px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 footer .inner .upper {
@@ -168,7 +186,9 @@ footer .inner .upper::after {
 
 footer .inner .upper h1 {
     float: left;
-    font: bold 27px/1 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 33px;
+    font-weight: lighter;
     color: rgb(252, 252, 245);
 }
 
@@ -181,7 +201,9 @@ footer .inner .upper ul li {
     margin-left: 22px;
     margin-top: 20px;
     color: rgb(252, 252, 245);
-    font: bold 18px "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 footer .inner .lower {
@@ -191,7 +213,9 @@ footer .inner .lower {
 
 footer .inner .lower p {
     width: 100%;
-    font: 14px/1 "arial";
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
     color: rgb(252, 252, 245);
-    line-height: 20px;
+    line-height: 25px;
 }
