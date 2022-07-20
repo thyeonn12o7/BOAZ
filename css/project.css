@@ -98,7 +98,7 @@ figure .inner h6 {
 
 section {
     width: 100%;
-    height: 2300px;
+    height: 2400px;
     padding: 80px 0px;
 }
 
@@ -108,8 +108,8 @@ section .inner {
 
 section .inner .marketing {
     width: 100%;
-    height: 700px;
-    margin-bottom: 30px;
+    height: 650px;
+    margin-bottom: 10px;
 }
 
 section .inner .marketing .wrap {
@@ -118,60 +118,66 @@ section .inner .marketing .wrap {
 }
 
 section .inner .marketing .wrap .first {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     border-right: solid 1px lightgray;
-    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section .inner .marketing .wrap .second {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     border-right: solid 1px lightgray;
-    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section .inner .marketing .wrap .third {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section .inner .marketing .wrap h3 {
     color: black;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    text-decoration: underline;
 }
 
 section .inner .marketing .wrap p {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
-    width: 450px;
+    width: 350px;
+    line-height: 30px;
     text-align: justify;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 section .inner .marketing .wrap a {
-    color: navy;
-    font-size: 18px;
+    color: rgb(135, 158, 250);
+    font-size: 16px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: justify;
     margin: 0 auto;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 section .inner .apply {
     width: 100%;
-    height: 700px;
-    margin-bottom: 30px;
+    height: 750px;
+    margin-bottom: 70px;
 }
 
 section .inner .apply .wrap {
@@ -180,102 +186,105 @@ section .inner .apply .wrap {
 }
 
 section .inner .apply .wrap .first {
-    width: 500px;
-    height: 600px;
+    width: 600px;
+    height: 650px;
     border-right: solid 1px lightgray;
-    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 section .inner .apply .wrap .second {
-    width: 500px;
-    height: 600px;
-    border-right: solid 1px lightgray;
-    margin-right: 10px;
-}
-
-section .inner .apply .wrap .third {
-    width: 500px;
-    height: 600px;
-    margin-right: 10px;
+    width: 600px;
+    height: 650px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 section .inner .apply .wrap h3 {
     color: black;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    text-decoration: underline;
 }
 
 section .inner .apply .wrap p {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
-    width: 450px;
+    width: 500px;
+    line-height: 30px;
     text-align: justify;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 section .inner .apply .wrap a {
-    color: navy;
-    font-size: 18px;
+    color: rgb(135, 158, 250);
+    font-size: 16px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: justify;
     margin: 0 auto;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 section .inner .analysis {
     width: 100%;
-    height: 700px;
+    height: 600px;
     margin-bottom: 30px;
 }
 
 section .inner .analysis .wrap {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 section .inner .analysis .wrap .first {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     border-right: solid 1px lightgray;
-    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section .inner .analysis .wrap .second {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     border-right: solid 1px lightgray;
-    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section .inner .analysis .wrap .third {
-    width: 500px;
-    height: 600px;
-    margin-right: 10px;
+    width: 400px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section .inner .analysis .wrap h3 {
     color: black;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    text-decoration: underline;
 }
 
 section .inner .analysis .wrap p {
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
-    width: 450px;
+    width: 350px;
+    line-height: 30px;
     text-align: justify;
     margin: 0 auto;
     margin-top: 60px;
@@ -283,22 +292,21 @@ section .inner .analysis .wrap p {
 }
 
 section .inner .analysis .wrap a {
-    color: navy;
-    font-size: 18px;
+    color: rgb(135, 158, 250);
+    font-size: 16px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: justify;
     margin: 0 auto;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 section .inner h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
-    margin-bottom: 30px;
-    margin-left: 200px;
-    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-left: 70px;
 }
 
 /* footer */
