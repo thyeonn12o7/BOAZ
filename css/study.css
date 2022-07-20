@@ -114,49 +114,49 @@ section .inner .first {
 }
 
 section .inner .first .DL {
-    width: 550px;
-    height: 600px;
-    margin-right: 100px;
+    width: 450px;
+    height: 550px;
+    margin-right: 50px;
     border: solid 1px #888;
     border-radius: 20%;
 }
 
 section .inner .first .NLP {
-    width: 550px;
-    height: 600px;
-    margin-right: 100px;
+    width: 450px;
+    height: 550px;
+    margin-right: 50px;
     border: solid 1px #888;
     border-radius: 20%;
 }
 
 section .inner .first .hugginface {
-    width: 550px;
-    height: 600px;
+    width: 450px;
+    height: 550px;
     border: solid 1px #888;
     border-radius: 20%;
 }
 
 section .inner h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 15px;
     margin-top: 60px;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 
 section .inner h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 25px;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
-section .inner  p {
+section .inner p {
     width: 530px;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-bottom: 30px;
     font-size: 16px;
     font-weight: lighter;
@@ -167,12 +167,12 @@ section .inner  p {
 }
 
 section .inner  a {
-    margin-left: 70px;
+    margin-left: 50px;
     font-size: 18px;
     font-weight: bold;
     font-family: 'Noto Sans KR', sans-serif;
     text-decoration: none;
-    color: #333;
+    color: black;
 }
 
 /* footer */
